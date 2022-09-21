@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+
+<head>
+
+    <!--- basic page needs
+   ================================================== -->
+    <meta charset="utf-8">
+    <title>Yaguarundí Team </title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+   ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+   ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+   ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+	================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+    <!-- header 
+   ================================================== -->
+   <header id="header" class="row">   
+
+   		<div class="header-logo">
+	        <a href="index.html">Yaguarundí</a>
+	    </div>
+
+	   	<nav id="header-nav-wrap">
+			<ul class="header-main-nav">
+				<li class="current"><a class="smoothscroll"  href="#home" title="home">Inicio</a></li>
+                <li><a class="smoothscroll"  href="#about" title="about">Sobre Mí</a></li>					
+			</ul>
+
+            <a href="#contact-form" title="contact" class="smoothscroll button button-primary cta">Contacto</a>
+		</nav>
+
+		<a class="header-menu-toggle" href="#"><span>Menu</span></a>    	
+   	
+   </header> <!-- /header -->
+
+
+   <!-- home
+   ================================================== -->
+   <section id="home" data-parallax="scroll"  data-natural-width=3000 data-natural-height=1500>
+
+        <div class="overlay"></div>
+        <div class="home-content">        
+
+            <div class="row contents">                     
+                <div class="home-content-left">
+
+                    <h3 data-aos="fade-up">
+                        Daniel Huk <br>
+                        Personal Trainer
+                    </h3>
+
+                    <h1 data-aos="fade-up">
+                        Yaguarundí <br>
+                        Running Team <br>                        
+                    </h1>
+
+                    <div class="buttons" data-aos="fade-up">
+                        <a href="#contact-form" target="_blank" class="smoothscroll button stroke">
+                            <span class="fa fa-whatsapp" aria-hidden="true"></span>
+                            Escribinos
+                        </a>                       
+                    </div>                    
+                </div>
+                <div class="home-image-right">
+                    <img src="images/yaguarundí_2.png" data-aos="fade-up">
+                </div>
+             
+            </div>
+
+        </div> <!-- end home-content -->
+
+        <ul class="home-social-list">
+            <li>
+                <a href="https://www.facebook.com/yaguarundirunningteam" target="_blank"><i class="fa fa-facebook-square"></i></a>
+            </li>
+            <li>
+                <a href="https://wa.me/5493751530007" target="_blank"><i class="fa fa-whatsapp"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/yaguarundirunningteam" target="_blank"><i class="fa fa-instagram"></i></a>
+            </li>            
+        </ul>
+        <!-- end home-social-list -->
+
+        <div class="home-scrolldown">
+            <a href="#about" class="scroll-icon smoothscroll">
+                <span>Scroll Down</span>
+                <i class="icon-arrow-right" aria-hidden="true"></i>
+            </a>
+        </div>
+
+    </section> <!-- end home -->  
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about">
+
+        <div class="row about-intro">
+
+            <div class="col-four">
+                <h1 class="intro-header" data-aos="fade-up">Sobre Mí</h1>
+            </div>
+            <div class="col-eight">
+                <p class="lead" data-aos="fade-up">
+                    Hola! Mi nombre es Daniel Huk, soy instructor certificado por AMAIP.
+                </p>
+            </div>                       
+            
+        </div>
+
+        <div class="row about-features">
+
+            <div class="features-list block-1-3 block-m-1-2 block-mob-full group">
+                              
+                <div class="bgrid feature" data-aos="fade-up">
+
+                        <span class="icon"><i class="icon-trophy"></i></span>	              
+
+                    <div class="service-content">
+                        <h3>Preparación física para el runner</h3>
+                        <p>
+                            <ul>
+                                <li>Técnica de Carreras</li>
+                                <li>Trail running</li>
+                                <li>Aeróbico</li>                                
+                                <li>Fuerza muscular</li>                                
+
+                            </ul>
+                        </p>                  
+                    </div>               
+                </div> <!-- /bgrid -->
+
+                <div class="bgrid feature" data-aos="fade-up">
+
+                    <span class="icon"><i class="icon-heart"></i></span>	            
+
+                    <div class="service-content">	
+                        <h3>Planes para empezar a correr</h3>
+                        <p>
+                            <ul>
+                                <li>Para mejorar condición física</li>                                
+                                <li>Para personas mayores</li>
+                                <li>Para bajar de peso</li>
+                                <li>Para niños</li>
+                            </ul>
+                        </p>                            
+                    </div>
+                </div> <!-- /bgrid -->
+            </div> <!-- end features-list -->
+        </div> <!-- end about-features -->
+    </section>
+    
+    <!-- contact-form
+    ================================================== -->
+    <section id="contact-form">
+            <div class="contact-form-title">
+                <h1>¿Tenés alguna consulta?</h1> 
+                <h4>¡ESCRIBINOS!</h4> 
+            </div>
+                <p id="failure">Oopsie...message not sent.</p>  
+                <p id="success">Your message was sent successfully. Thank you!</p>
+    
+               <form class="contact-form-form" method="post" action="/">
+                <div>
+                  <label for="name">
+                      <span class="required">Nombre: *</span> 
+                      <input type="text" id="name" name="name" value="" placeholder="Escriba su nombre" required="required" tabindex="1" autofocus="autofocus" />
+                  </label> 
+                </div>
+                <div>
+                  <label for="email">
+                      <span class="required">Email: *</span>
+                      <input type="email" id="email" name="email" value="" placeholder="Escriba su email" tabindex="2" required="required" />
+                  </label>  
+                </div>
+                <div>		          
+                  <label for="message">
+                      <span class="required">Mensaje: *</span> 
+                      <textarea id="message" name="message" placeholder="Por favor, escribe tu consulta aquí..." tabindex="5" required="required"></textarea> 
+                  </label>  
+                </div>
+                <div>		           
+                  <button name="submit" type="submit" id="submit" >ENVIAR</button> 
+                </div>
+               </form>
+    
+        </div>
+    </section>
+    <!-- end contact-form -->    
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+
+      <div class="footer-bottom">
+
+      	<div class="row">
+
+      		<div class="col-twelve">
+	      		<div class="copyright">
+		         	<span>© Copyright Yaguarundí Running Team.</span> 
+		         	<span>Design by <a href="http://www.instagram.com/grevilsz" target="_blank">Santiago Zarza</a></span>		         	
+		         </div>
+
+		         <div id="go-top">
+		            <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up"></i></a>
+		         </div>         
+	      	</div>
+
+      	</div> <!-- end footer-bottom -->     	
+
+      </div>
+
+    </footer>
+
+
+    <div id="preloader"> 
+    	<div id="loader"></div>
+    </div>  
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

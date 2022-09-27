@@ -69,7 +69,7 @@ a:focus {
 
 
 /* ===================================================================
- *  03. typography & general theme styles - (_document-setup.scss) 
+ *  03. typography & general theme styles 
  *
  * ------------------------------------------------------------------- */
 
@@ -269,7 +269,7 @@ hr {
 
 
 /* ------------------------------------------------------------------- 
- * Lists - (_document-setup.scss)  
+ * Lists
  * ------------------------------------------------------------------- */
 
 ol {
@@ -331,7 +331,7 @@ dd {
 
 
 /* ------------------------------------------------------------------- 
- * Spacing - (_document-setup)  
+ * Spacing
  * ------------------------------------------------------------------- */
 
 button,
@@ -362,7 +362,7 @@ form,
 
 
 /* ------------------------------------------------------------------- 
- * floated image - (_document-setup)  
+ * floated image
  * ------------------------------------------------------------------- */
 
 img.pull-right {
@@ -408,7 +408,7 @@ img.pull-left {
 
 
 /* ------------------------------------------------------------------- 
- * pace.js styles - center simple  - (_document-setup.scss)
+ * pace.js styles - center simple
  * ------------------------------------------------------------------- */
 
 .pace {
@@ -463,7 +463,7 @@ img.pull-left {
 
 
 /* ===================================================================
- *  04. preloader - (_preloader-blank.scss)
+ *  04. preloader
  *
  * ------------------------------------------------------------------- */
 
@@ -486,7 +486,7 @@ img.pull-left {
 
 
 /* ===================================================================
- *  05. forms - (_forms.scss)
+ *  05. forms
  *
  * ------------------------------------------------------------------- */
 
@@ -616,7 +616,7 @@ label>input[type="radio"] {
 
 
 /* ------------------------------------------------------------------- 
- * Style Placeholder Text - (_forms.scss)
+ * Style Placeholder Text
  * ------------------------------------------------------------------- */
 
 ::-webkit-input-placeholder {
@@ -643,7 +643,7 @@ label>input[type="radio"] {
 
 
 /* ------------------------------------------------------------------- 
- * Change Autocomplete styles in Chrome - (_forms.scss)
+ * Change Autocomplete styles in Chrome
  * ------------------------------------------------------------------- */
 
 input:-webkit-autofill,
@@ -773,16 +773,8 @@ input::-moz-focus-inner {
   padding: 0;
 }
 
-
-
-/* ===================================================================
- *  07. other components - (_others.scss)
- *
- * ------------------------------------------------------------------- */
-
-
 /* ------------------------------------------------------------------- 
- * alert box - (_alert-box.scss)
+ * alert box
  * ------------------------------------------------------------------- */
 
 .alert-box {
@@ -820,12 +812,6 @@ input::-moz-focus-inner {
   background-color: #fff099;
   color: #bba31b;
 }
-
-
-/* ------------------------------------------------------------------- 
- * additional typo styles - (_additional-typo.scss)
- * ------------------------------------------------------------------- */
-
 
 /* drop cap 
  * ----------------------------------------------- */
@@ -1630,6 +1616,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   .home-image-right img {
     vertical-align: top;
     width: 100%;
+    padding-bottom: 35rem;
   }
 }
 
@@ -2010,7 +1997,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 #contact-form input,   
 #contact-form select,   
 #contact-form textarea { 
-  width:500px;
+  width:400px;
   background: #fff;
   border: 0; 
   -moz-border-radius: 4px;  
@@ -2025,12 +2012,12 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   background-color: #E5E6E7; 
 }  
 #contact-form textarea {
-  width:500px;
+  width:400px;
   height: 50px;
 }
 #contact-form button[type="submit"] {
   cursor:pointer;
-  width:500px;
+  width:400px;
   border:none;
   background:black;
   color:#FFF;
@@ -2070,7 +2057,7 @@ input:required, textarea:required {
   #contact-form select,   
   #contact-form textarea
   #contact-form button{
-    width: 30%;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 1fr);
